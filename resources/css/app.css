@@ -1,0 +1,81 @@
+body {
+    font-family: "Times New Roman", Times, serif; /* Tipo de letra */
+    background-color: #f6f6f6;
+    color: #333;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"], form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: "Times New Roman", Times, serif; 
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    background-color: #007bff; 
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: "Times New Roman", Times, serif; 
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3; 
+}
+
+h1 {
+    text-align: center;
+    color: #555; 
+    font-family: "Times New Roman", Times, serif;
+}
+
+.button-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 8px 16px; 
+    font-size: 16px;
+    color: #fff;
+    background-color: #8B4513; 
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.btn:hover {
+    background-color: #5b2d0d; 
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}

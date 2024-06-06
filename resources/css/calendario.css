@@ -1,0 +1,36 @@
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 200px;
+}
+
+input[type="date"]:focus {
+    outline: none;
+    border-color: dodgerblue;
+    box-shadow: 0 0 5px dodgerblue;
+}
+
+input[type="date"]:required:invalid {
+    border-color: crimson;
+}
+
+input[type="date"]:required:valid {
+    border-color: forestgreen;
+}
+
+.fecha-ocupada {
+    background-color: #ffc0cb;
+    color: #000;
+}
+
+.ui-datepicker-calendar .ocupada a {
+    background-color: #ff0303 !important;
+    color: white !important;
+}
